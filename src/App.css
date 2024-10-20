@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.custom-row {
+  justify-content: flex-start;
+}
+
+.custom-col {
+  flex: 0 0 calc(20% - 10px); /* Set each card to take up 20% of the width */
+  max-width: calc(20% - 10px); /* Set max width to 20% minus the spacing */
+}
+
+.card {
+  margin-bottom: 15px; /* Optional margin for additional spacing */
+}
+.card {
+  max-width: 400px; /* Adjust the size as needed */
+  margin: auto; /* Center the card */
+}
+
+.card img {
+  height: 300px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the area */
+}
